@@ -1,243 +1,483 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="favicon.png" />
 
-<head>
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap5" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
- 
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 
-  <title>Sawa gold</title>
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
 
- 
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
- 
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-  
-  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Poppins:400,600,700&display=swap" rel="stylesheet">
-  
-  <link href="css/style.css" rel="stylesheet" />
-
-  <link href="css/responsive.css" rel="stylesheet" />
-</head>
-
-<body>
-
-  <div class="hero_area">
-  
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/unnamed.png" alt="">
-         
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                 
-              <form class="form-inline">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
-            </div>
-          </div>
-        </nav>
+    <title>
+     Sawa Gold
+    </title>
+  </head>
+  <body>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icofont-close js-menu-toggle"></span>
+        </div>
       </div>
-    </header>
-   
-    <section class=" slider_section position-relative">
-      <div class="design-box">
-        <img src="images/design-1.png" alt="">
-      </div>
-      <div class="slider_number-container d-none d-md-block">
-      
-      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav">
       <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="detail_box">
-                    <h2>
-                      <span> New Collection</span>
-                      <hr>
-                    </h2>
-                    <h1>
-                      Jewellery
-                    </h1>
-                    <p>
-                      "Discover unmatched elegance at our gold shop, where every piece is a masterpiece, and each moment shines with pure brilliance."   </p>
-                    <div>
-                      <a href="">Shop Now</a>
+        <div class="menu-bg-wrap">
+          <div class="site-navigation">
+            <a href="index.html" class="logo m-0 float-start">
+              <img src="images/logo.png" alt="" width="35%">
+            </a>
+            <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <a href="#" class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+              data-toggle="collapse"
+              data-target="#main-navbar">
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero" style="margin-top: 60px;">
+      <img src="images/63_copy.webp" alt="classic" style="width: 80%;">
+      <div class="hero-slide">
+        <div class="img "style="background-image: url('images/istockphoto-486592060-612x612.jpg')"></div>
+        <div class="img "style="background-image: url('images/63_copy.webp')"></div>
+        <div class="img "style="background-image: url('images/elegant-bridal-beauty-stockcake.jpg')"></div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <div class="container" style="text-align: center;">
+        <img src="images/offer.jpg" alt="classic" style="width: 80%;">
+     </div>
+    </div>
+      
+  
+    <div class="section">
+      <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="col-lg-6">
+            <h2 class="font-weight-bold text-primary heading">
+              Popular Products
+            </h2>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <p>
+              <a
+                href="products.html"
+                target="_blank"
+                class="btn btn-primary text-white py-3 px-4">
+                View all products</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="property-slider-wrap">
+              <div class="property-slider">
+                <div class="property-item">
+                  <a href="products-single.html" class="img">
+                    <img src="images/jewl_1.jpeg" alt="Image" class="img-fluid" />
+                  </a>
+                  <div class="property-content">
+                    <div><span class="d-block mb-2 text-black-50">Lorem</span>
+                      <a
+                        href="products-single.html"
+                        class="btn btn-primary py-2 px-3">
+                        See details</a>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="img-box">
-                    <img src="images/slider-img.png" alt="">
+                <!-- .item -->
+                <div class="property-item">
+                  <a href="products-single.html" class="img">
+                    <img src="images/jewl_13.jpeg" alt="Image" class="img-fluid" />
+                  </a>
+                  <div class="property-content">
+                    <div>
+                      <span class="d-block mb-2 text-black-50">Lorem</span>
+                      <a
+                        href="products-single.html"
+                        class="btn btn-primary py-2 px-3" >
+                        See details</a>
+                    </div>
                   </div>
                 </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="products-single.html" class="img">
+                    <img src="images/jewl_3.jpeg" alt="Image" class="img-fluid" />
+                  </a>
+                  <div class="property-content">
+                    <div>
+                      <span class="d-block mb-2 text-black-50">Lorem</span>
+                      <a
+                        href="products-single.html"
+                        class="btn btn-primary py-2 px-3">
+                        See details</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="products-single.html" class="img">
+                    <img src="images/jewl_4.jpeg" alt="Image" class="img-fluid" />
+                  </a>
+                  <div class="property-content">
+                    <div>
+                      <span class="d-block mb-2 text-black-50">Lorem</span>
+                      <a
+                        href="products-single.html"
+                        class="btn btn-primary py-2 px-3">
+                        See details</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="products-single.html" class="img">
+                    <img src="images/jewl_5.jpeg" alt="Image" class="img-fluid" />
+                  </a>
+
+                  <div class="property-content">
+                    <div>
+                      <span class="d-block mb-2 text-black-50">Lorem</span>
+                      <a
+                        href="products-single.html"
+                        class="btn btn-primary py-2 px-3">
+                        See details</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="products-single.html" class="img">
+                    <img src="images/jewl_6.jpeg" alt="Image" class="img-fluid" />
+                  </a>
+
+                  <div class="property-content">
+                    <div>
+                      <span class="d-block mb-2 text-black-50">Lorem</span>
+                      <a
+                        href="products-single.html"
+                        class="btn btn-primary py-2 px-3">
+                        See details</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="products-single.html" class="img">
+                    <img src="images/jewl_15.jpeg" alt="Image" class="img-fluid" />
+                  </a>
+
+                  <div class="property-content">
+                    <div>
+                      <span class="d-block mb-2 text-black-50">Lorem</span>
+                      <a
+                        href="products-single.html"
+                        class="btn btn-primary py-2 px-3">
+                        See details</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="products-single.html" class="img">
+                    <img src="images/jewl_12.jpeg" alt="Image" class="img-fluid" />
+                  </a>
+                  <div class="property-content">
+                    <div>
+                      <span class="d-block mb-2 text-black-50">Lorem</span>
+                      <a
+                        href="products-single.html"
+                        class="btn btn-primary py-2 px-3">
+                        See details</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="products-single.html" class="img">
+                    <img src="images/jewl_13.jpeg" alt="Image" class="img-fluid" />
+                  </a>
+
+                  <div class="property-content">
+                    <div>
+                      <span class="d-block mb-2 text-black-50">Lorem</span>
+                      <a
+                        href="products-single.html"
+                        class="btn btn-primary py-2 px-3">
+                        See details</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+              </div>
+
+              <div id="property-nav" class="controls" tabindex="0" aria-label="Carousel Navigation">
+                <span class="prev" data-controls="prev" aria-controls="property" tabindex="-1">Prev</span>
+                <span class="next" data-controls="next" aria-controls="property" tabindex="-1" >Next</span>
               </div>
             </div>
-          
-    </section>
- 
-  </div>
-
-
-
-  <div class="item_section layout_padding2">
-    <div class="container">
-      <div class="item_container">
-        <div class="box">
-          <div class="price">
-            <h6>
-              Best PRICE
-            </h6>
-          </div>
-          <div class="img-box">
-            <img src="images/i-1.png" alt="">
-          </div>
-          <div class="name">
-            <h5>
-              Bracelet
-            </h5>
-          </div>
-        </div>
-        <div class="box">
-          <div class="price">
-            <h6>
-              Best PRICE
-            </h6>
-          </div>
-          <div class="img-box">
-            <img src="images/i-2.png" alt="">
-          </div>
-          <div class="name">
-            <h5>
-              Ring
-            </h5>
-          </div>
-        </div>
-        <div class="box">
-          <div class="price">
-            <h6>
-              Best PRICE
-            </h6>
-          </div>
-          <div class="img-box">
-            <img src="images/i-3.png" alt="">
-          </div>
-          <div class="name">
-            <h5>
-              Earings
-            </h5>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-
-
-  <section class="about_section layout_padding2-top layout_padding-bottom">
-    <div class="design-box">
-      <img src="images/design-2.png" alt="">
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                About Jewellery Shop
-              </h2>
-            </div>
-            <p>
-              Create memories that last a lifetime with our bespoke design service. Our skilled artisans will bring your vision to life, crafting a unique piece tailored exclusively for you or your loved ones. 
-            </p>
-            <div>
-              <a href="">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="img-box">
-            <img src="images/about-img.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
- 
-  <section class="info_section ">
-    <div class="container">
-      <div class="info_container">
+  
+    <section class="features-1">
+      <div class="container">
         <div class="row">
-          <div class="col-md-5">
-            <div class="info_logo">
-                <span>
-                  Sawa Gold And Diamonds<br>                          
-                  <span>19/366, A15, 2nd Floor, Unity Tower,<br> Puthiyapalam, Chalappuram,<br>Calicut, 673002
-                </span>
-              </a>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="box-feature">
+              <span class="flaticon-house"></span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptates, accusamus.
+              </p>
+              <p><a href="services.html" class="learn-more">Learn More</a></p>
             </div>
           </div>
-          
-          <div class="col-md-3">
-            <div class="info_contact">
-           
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+            <div class="box-feature">
+              <span class="flaticon-building"></span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptates, accusamus.
+              </p>
+              <p><a href="services.html" class="learn-more">Learn More</a></p>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="info_contact">
-              
-              <div class="social_box">
-                <a href="">
-                  <img src="images/fb.png" alt="">
-                </a>
-                <a href="">
-                  <img src="images/twitter.png" alt="">
-                </a>
-                <a href="">
-                  <img src="images/linkedin.png" alt="">
-                </a>
-                <a href="">
-                  <img src="images/insta.png" alt="">
-                </a>
-              </div>
-              
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="box-feature">
+              <span class="flaticon-house-3"></span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptates, accusamus.
+              </p>
+              <p><a href="services.html" class="learn-more">Learn More</a></p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
+            <div class="box-feature">
+              <span class="flaticon-house-1"></span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptates, accusamus.
+              </p>
+              <p><a href="services.html" class="learn-more">Learn More</a></p>
             </div>
           </div>
         </div>
-        
-        
-       
+      </div>
+    </section>
+
+    <div class="section section-4 bg-light">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-5">
+            <h2 class="font-weight-bold heading text-primary mb-4">Why Sawa Gold?</h2>
+            <p class="text-black-50">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              enim pariatur similique debitis vel nisi qui reprehenderit.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-between mb-5">
+          <div class="col-lg-5 mb-5 order-lg-2">
+              <video controls loop class="img-fluid">
+                <source src="images/video_3.mp4" type="video/mp4">
+            </video>        
+         </div>
+          <div class="col-lg-4">
+            <div class="d-flex feature-h">
+              <span class="wrap-icon me-3">
+                <span class="icon-home2"></span>
+              </span>
+              <div class="feature-text">
+                <h3 class="heading">Lorem</h3>
+                <p class="text-black-50">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum iste.
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex feature-h">
+              <span class="wrap-icon me-3">
+                <span class="icon-person"></span>
+              </span>
+              <div class="feature-text">
+                <h3 class="heading">Lorem</h3>
+                <p class="text-black-50">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum iste.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex feature-h">
+              <span class="wrap-icon me-3">
+                <span class="icon-person"></span>
+              </span>
+              <div class="feature-text">
+                <h3 class="heading">Lorem</h3>
+                <p class="text-black-50">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum iste.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex feature-h">
+              <span class="wrap-icon me-3">
+                <span class="icon-person"></span>
+              </span>
+              <div class="feature-text">
+                <h3 class="heading">Lorem</h3>
+                <p class="text-black-50">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum iste.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex feature-h">
+              <span class="wrap-icon me-3">
+                <span class="icon-person"></span>
+              </span>
+              <div class="feature-text">
+                <h3 class="heading">Lorem</h3>
+                <p class="text-black-50">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum iste.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex feature-h">
+              <span class="wrap-icon me-3">
+                <span class="icon-security"></span>
+              </span>
+              <div class="feature-text">
+                <h3 class="heading">Lorem</h3>
+                <p class="text-black-50">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum iste.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
- 
+  
+    <div class="row" style="text-align:center;">
+      <div class="col-12">
+        <img src="images/1663340509_a0dbb8c35952d2efb1e6.jpg" alt="" width="100%">
+      </div>
+    </div>
+    
+    <div class="section" style="padding: 50px;" >
+      <div class="row justify-content-center footer-cta" data-aos="fade-up">
+        <div class="col-lg-7 mx-auto text-center" >
+          <h2 class="mb-4" style="font-weight:600">Haven't found an answer to your questions?</h2>
+          <h6>Connect with us either on discard or email us</h6>
+          <p>
+            <a
+              href="contact.html"
+              target="_blank"
+              class="btn btn-primary text-white py-3 px-4">Contact Us</a>
+          </p>
+        </div>
+      </div>
+    </div>
 
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="js/custom.js"></script>
-</body>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">  
+          <div class="col-sm-12 col-md-4">
+            <img src="images/logo.png" alt="" width="60%">
+          </div>
+          <div class="col-6 col-md-4">
+          <h6>Contact Us</h6>
+          <i class="icon-room"></i>
+          &nbsp;&nbsp;&nbsp;<b>Sawa Gold And Diamonds<br></b>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19/366, A15, 2nd Floor, Unity Tower,<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Puthiyapalam, Chalappuram,
+            Calicut, 673002
+        </div>
+        <div class="col-6 col-md-4">
+          <i class="icon-envelope"></i>
+          &nbsp;&nbsp;&nbsp;info@sawagold.com<br><br>
+          <i class="icon-phone"></i>
+          &nbsp;&nbsp;&nbsp;000000000000000
+        </div>
+      </div>
+      <hr class="small">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-12">
+            <p class="copyright-text">Copyright © 2024 All Rights Reserved by
+              <a href="#"><span class="logo">Sawa Gold.</span></a>
+            </p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      </footer>
+      </div>
+    </div>
+    <!-- /.site-footer -->
 
+    <!-- Preloader -->
+    <div id="overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
